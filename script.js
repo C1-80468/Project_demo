@@ -22,7 +22,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   if (authenticatedUser) {
     alert(`Welcome, ${Email}! Login successful.`);
     // Redirect to another page or perform further actions upon successful login
-        window.location.href="https://google.com";
+        window.location.href="Q1.html";
   } else {
     alert('Invalid username or password. Please try again.');
   }
